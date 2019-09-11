@@ -10,15 +10,45 @@ html {
 
 #icone {
     color: antiquewhite;
-    margin-left: 10%;
-    margin-right: 2%;
+    margin-left: 7%;
 }
 
 #div2 {
     margin-left: 3%;
-    margin-right: 2%;
 }
 
-#div3 {
+#titulo {
     margin-left: 25%
+}
+
+#menuDeGames {
+    position: fixed;
+    margin-left: 1%;
+    margin-top: 10%;
+    width: 20%;
+}
+
+#menuDeGames2 {
+    position: fixed;
+    margin-left: 1%;
+    margin-top: 30%;
+    width: 20%;
+}
+
+#central {
+    float: right;
+    margin-top: 10%;
+    margin-right: 3%;
+    height: 100%;
+    width: 850px;
+    color: antiquewhite
+}
+
+#botaodisable {
+    background-color: black;
+}
+
+#imagem {
+    margin-top: 2%;
+    margin-bottom: 2%;
 }
