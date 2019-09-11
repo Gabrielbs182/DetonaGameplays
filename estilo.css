@@ -1,0 +1,24 @@
+body,
+html {
+    background-image: url(fundo.jpg);
+}
+
+#div1 {
+    margin-left: 1%;
+    margin-top: 1%;
+}
+
+#icone {
+    color: antiquewhite;
+    margin-left: 10%;
+    margin-right: 2%;
+}
+
+#div2 {
+    margin-left: 3%;
+    margin-right: 2%;
+}
+
+#div3 {
+    margin-left: 25%
+}
