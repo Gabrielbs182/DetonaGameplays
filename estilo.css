@@ -3,14 +3,10 @@ html {
     background-image: url(fundo.jpg);
 }
 
-#div1 {
-    margin-left: 1%;
-    margin-top: 1%;
-}
-
 #icone {
     color: antiquewhite;
-    margin-left: 5%;
+    margin-left: 7%;
+    width: 10%;
 }
 
 #div2 {
@@ -18,13 +14,25 @@ html {
 }
 
 #titulo {
-    margin-left: 32%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 40%;
+    margin: auto;
+    margin-top: 1%;
 }
 
 #menuDeGames {
     position: fixed;
     margin-top: 5%;
-    width: 15%;
+    width: 20%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 77%;
+    margin: auto;
 }
 
 #central {
@@ -35,14 +43,14 @@ html {
     background-color: black;
 }
 
-#imagem {
-    margin-bottom: 5%;
-}
-
 #texto {
-    margin-top: 5%;
     height: 1080px;
     color: antiquewhite;
+}
+
+#divtexto {
+    color: antiquewhite;
+    margin-top: 5%;
 }
 
 #barraLateral {
@@ -51,4 +59,5 @@ html {
 
 #top {
     height: 90px;
+    width: 100%;
 }
