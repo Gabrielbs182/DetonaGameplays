@@ -10,7 +10,7 @@ html {
 
 #icone {
     color: antiquewhite;
-    margin-left: 7%;
+    margin-left: 5%;
 }
 
 #div2 {
@@ -18,29 +18,16 @@ html {
 }
 
 #titulo {
-    margin-left: 25%
+    margin-left: 32%;
 }
 
 #menuDeGames {
     position: fixed;
-    margin-left: 1%;
-    margin-top: 10%;
-    width: 20%;
-}
-
-#menuDeGames2 {
-    position: fixed;
-    margin-left: 1%;
-    margin-top: 30%;
-    width: 20%;
+    margin-top: 5%;
+    width: 15%;
 }
 
 #central {
-    float: right;
-    margin-top: 10%;
-    margin-right: 3%;
-    height: 100%;
-    width: 850px;
     color: antiquewhite
 }
 
@@ -49,6 +36,19 @@ html {
 }
 
 #imagem {
-    margin-top: 2%;
-    margin-bottom: 2%;
+    margin-bottom: 5%;
+}
+
+#texto {
+    margin-top: 5%;
+    height: 1080px;
+    color: antiquewhite;
+}
+
+#barraLateral {
+    height: 1080px;
+}
+
+#top {
+    height: 90px;
 }

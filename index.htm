@@ -3,10 +3,11 @@
 
 <head>
     <script src="https://kit.fontawesome.com/d372d112bf.js"></script>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <title></title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
     <link href="estilo.css" rel="stylesheet">
 </head>
 
@@ -16,57 +17,68 @@
             window.location.href = "residentevil.htm";
         }
     </script>
+
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 
+    <div class="container-fluid">
+        <div id="top" class="col-sm-12">
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark navbar fixed-top">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark navbar fixed-top">
 
-        <div id="icone">
+                <div id="icone">
 
-            <form class="form-inline my-2 my-lg-0" id="div2">
-                <a href="index.htm"><i class="fas fa-gamepad fa-3x" id="icone"></i></a>
-            </form>
+                    <form class="form-inline my-2 my-lg-0" id="div2">
+                        <a href="index.htm"><i class="fas fa-gamepad fa-3x" id="icone"></i></a>
+                    </form>
+                </div>
+
+                <div id="titulo">
+                    <center>
+
+                        <a class="navbar-brand" href="index.htm">
+                            <h1>Detona Gameplays</h1>
+                        </a>
+
+                    </center>
+                </div>
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                          <span class="navbar-toggler-icon"><i class="far fa-gamepad"></i></span>
+                        </button>
+
+            </nav>
         </div>
+        <div class="row">
 
 
-        <div id="titulo">
+            <div class="col-sm-2" id="barraLateral">
 
+                <div class="btn-group-vertical" id="menuDeGames">
 
-            <a class="navbar-brand" href="index.htm">
-                <h1>Detona Gameplays</h1>
-            </a>
+                    <button type="button" class="btn btn-secondary btn-lg" disabled id="botaodisable">Detonados</button>
+                    <button type="button" class="btn btn-secondary btn-lg">Zelda</button>
+                    <button type="button" class="btn btn-secondary btn-lg">Mario</button>
+                    <button type="button" class="btn btn-secondary btn-lg">Donkey Kong</button>
+                    <button type="button" class="btn btn-secondary btn-lg" onclick="chamar()">Resident Evil</button>
+                    <button type="button" class="btn btn-secondary btn-lg" disabled id="botaodisable">Comandos especiais</button>
+                    <button type="button" class="btn btn-secondary btn-lg">Mortal Kombat</button>
+                    <button type="button" class="btn btn-secondary btn-lg">StreetFighter</button>
+                    <button type="button" class="btn btn-secondary btn-lg">Tekken</button>
+
+                </div>
+            </div>
+
+            <div class="col-sm-10" id="texto">
+
+                <center>
+                    <img src="cidinei.jpg">
+                </center>
+
+            </div>
         </div>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"><i class="far fa-gamepad"></i></span>
-            </button>
-
-
-    </nav>
-
-    <div class="btn-group-vertical" id="menuDeGames">
-
-        <button type="button" class="btn btn-secondary btn-lg" disabled id="botaodisable">Detonados</button>
-        <button type="button" class="btn btn-secondary btn-lg">Zelda</button>
-        <button type="button" class="btn btn-secondary btn-lg">Mario</button>
-        <button type="button" class="btn btn-secondary btn-lg">Donkey Kong</button>
-        <button type="button" class="btn btn-secondary btn-lg" onclick="chamar()">Resident Evil</button>
     </div>
-
-    <div class="btn-group-vertical" id="menuDeGames2">
-
-        <button type="button" class="btn btn-secondary btn-lg" disabled id="botaodisable">Comandos especiais</button>
-        <button type="button" class="btn btn-secondary btn-lg">Mortal Kombat</button>
-        <button type="button" class="btn btn-secondary btn-lg">StreetFighter</button>
-        <button type="button" class="btn btn-secondary btn-lg">Tekken</button>
-
-    </div>
-
-    <div class="container" id="central">
-
-    </div>
-
 
 </body>
 
